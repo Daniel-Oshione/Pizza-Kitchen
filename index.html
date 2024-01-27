@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./img folder/Kitchen.png" type="image/x-icon">
+    <title>Pizza Kitchen</title>
+</head>
+<body style="background-image:url(./img\ folder/pizzzza.jpg);">
+    <nav>
+          <img src="./img folder/Kitchen.png" alt="" class="logo">
+           <ul>
+            <li> <a class="live" href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="services.html">Services</a></li>
+            <li> <a href="contact.html">Contact us</a></li>
+            <li> <a href="feedback.html">Feedback</a></li>
+           </ul>
+    </nav>
+    <div class="mid">
+        <h1 class="fresh">
+            UNLIMITED <br>
+            FRESH <span style="color: rgb(238, 255, 0);">PIZZA</span>
+        </h1>
+        <div class="midstyle">
+            <span style="color: rgb(238, 255, 0);">
+                <h3>
+                    EXTRA CHEESY....
+                </h3>
+            </span>
+            <P>
+                Get your fresh out of the oven ready to eat <br>
+                pizza here at <span style="color: yellow;">PIZZKITCHEN!!!!</span> 
+            </P>
+            <div class="buy">
+                <span>
+               <button  class="order"  onclick="openpopup()">
+                Order now
+            </button>
+            </span>
+                <p class="price">
+                   $12.99 
+                </p>
+                <div class="popup" id="popup">
+                    <img src="./img folder/tick.png" alt="">
+                    <h2>
+                        Thank you!!
+                    </h2>
+                    <p>
+                        Your order has been successfully placed.
+                    </p>
+                    <a href="home.html"  onclick="closepopup()">Ok</a>
+                </div>
+            </div>
+            <script>
+                let popup = document.getElementById("popup");
+                function openpopup(){
+                    popup.classList.add("open-popup");
+                }
+                function closepopup(){
+                    popup.classList.remove("open-popup");
+                }
+            </script>
+        </div>
+    </div>
+    <div class="categories">
+        <div class="cheezy">
+            <img src="./img folder/cheezy.jpg" alt="" class="cheeze">
+            <a href="services.html">
+            <div class="mini">
+                             <h3>
+                FRESHLY BAKED <br>
+                WITH EXTRA CHEESE.
+             </h3>
+             <P style="color: black;">
+                $10.99
+             </P>
+            </div>
+        </a>
+        </div>
+        <div class="oliveflavour">
+         <img src="./img folder/olive.jpg" alt="" class="olive">
+         <a href="services.html" style="color: black;">
+         <div class="mini">
+                     <h3>
+            FRESH <br>
+            OLIVE PIZZA.
+         </h3>
+         <p>
+            $13.99
+         </p>
+         </div>
+        </a>
+        </div>
+        <div class="saladflavour">
+            <img src="./img folder/salad.jpg" alt="" class="salad">
+            <a href="services.html" style="color: black;">
+            <div class="mini">
+                            <h3>
+                VEGETABLE ONLY <br>
+                FRESH PIZZA. 
+            </h3>
+            <p>
+                $8.99
+            </p>
+            </div>
+        </a>
+        </div>
+        <div class="veganspecial">
+            <img src="./img folder/vegan.jpg" alt="" class="vegan">
+            <a href="services.html" style="color:black;">
+            <div class="mini">
+                   <h3>
+                STRICTLY VEGAN <br>
+                ONLY FRESH PIZZA.
+            </h3>
+            <p>
+                $6.99
+            </p>
+            </div>
+        </a>
+        </div>
+    </div>
+ </body>
+ <footer>
+    <span>
+    <img src="./img folder/Kitchen.png" alt="" class="pix">
+<h5>
+    +2349029959608 <br>
+    +2348156764285 <br>
+    +2347967473096
+</h5>
+</span>
+<div class="down">
+   <a href="http://twitter.com/Pizzkitchen"><img src="./img folder/twt.png" alt=""></a>
+   <a href="http://intsagram.com/Pizzkitchen"><img src="./img folder/ig.png" alt=""></a>
+   <a href="http://facebook.com/Pizzkitchen"><img src="./img folder/fb.png" alt=""></a>
+   <h2>
+     "Get in touch with us"
+   </h2>
+   <p>
+    &copy;2023 all rights reserverd....
+   </p>
+</div>
+ </footer>
+</html>

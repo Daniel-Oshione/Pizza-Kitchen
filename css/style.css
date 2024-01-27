@@ -1,0 +1,289 @@
+*{
+    padding:0;
+    margin: o;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    width: 180px;
+    height: 180px;
+    border-radius: 400%;
+    line-height: 80px;
+    margin:30px 50px;
+    position: relative;left: px;
+    position: relative;bottom: 20px;
+}
+nav{
+    height: 200px;
+    width: 100%; 
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    position: relative;top: 30px;
+    position: relative;right: 60px;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10%;
+}
+nav a.live,a:hover{
+    background-color: rgb(255, 102, 0);
+    transition: .5s;
+    border:5px 5px 5px 5px ;
+}
+.mid{
+    color: white;
+    position: relative;top: 100px;
+    margin-left: 50px;
+}
+.fresh{
+    font-size: 60px;
+}
+.buy{
+    display: flex;
+    margin-top: 40px;
+}
+.order{
+    color: white;
+    border-color: white;
+    font-weight: bolder;
+    padding: 10px 50px 10px 50px;
+    border-style: solid;
+    background-color:rgb(255, 102, 0) ;
+    border-radius: 10%;
+    position: relative;bottom: 10px;
+    cursor: pointer;
+}
+.popup{
+    width: 450px;
+    background:rgb(235, 226, 219);
+    border-radius: 6px;
+    position: absolute;
+    top:0%;
+    left: 60%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px 30px;
+    color: black;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.popup img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    filter: drop-shadow(0px 20px 20px #5555);
+}
+.popup h2{
+    font-size: 30px;
+    font-family: 500;
+    margin: 30px 0 10px;
+}
+.popup p{
+    margin-bottom: 40px;
+}
+.popup a{
+    padding: 5px 150px  5px 150px;
+    border-radius: 5%;
+    background-color:rgb(255, 102, 0) ;
+    color: white;
+    border-color: white;
+}
+.open-popup{
+    top: 0%;
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+}
+.midstyle{
+    position: relative;bottom: 30px;
+    font-weight: bolder;
+}
+.price{
+    position:relative;left: 20px;bottom: 40px;
+    font-size: 30px;
+    color: yellow;
+    font-weight: bolder;
+}
+.categories{
+    margin-top: 200px;
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    width: 1371px;
+    height: 550PX;
+    position: relative;right: 30px;
+    font-weight: bolder;
+}
+.categories img{
+    width: 230px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;bottom: 70px;
+    filter: drop-shadow(20px 20px 10px #5555);
+    object-fit: cover;
+}
+.categories h3{
+    color:rgb(255, 102, 0) ;
+    font-size: 25px;
+}
+.mini{
+position: relative;bottom: 20px;
+border-style: none;
+padding: 5px 10px 5px 10px;
+box-shadow: 15px 15px 15px #5555;
+border-radius: 5%;
+background-color: rgb(248, 243, 237);  
+}
+footer{
+    background-color: black;
+    background-size: contain;
+    position: relative;right:8px;top: 20px;
+    padding-right: 30px;
+    width: 1347px;
+    height: 200px;
+    ;
+}
+footer a:hover{
+    background-color: transparent;
+    padding: 20px 20px 20px 20px;    
+}
+footer a img{
+    padding: 20px 20px 20px 20px;
+    position: relative;left: 540px;
+}
+footer h2{
+    color: rgb(167, 167, 167);
+    text-align: center;
+}
+footer p{
+    color: rgb(167, 167, 167);
+    text-align: right;
+}
+.pix{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;left: 30px;top: 10px;
+}
+footer h5{
+    color: rgb(167, 167, 167);
+    position: relative;left: 30px;
+}
+.down{
+    position: relative;bottom: 190px;
+}
+.aboutbody{
+    background-size: cover;
+}
+.aboutmid{
+    text-align: center;
+    margin-top:100px;
+    border-style: none;
+    background-color:rgb(248, 243, 237) ;
+   position: relative;right: 8px;
+   width: 1349px;
+   height: 2500px;
+   padding-top: 30px;
+}
+.head{
+    color:rgb(255, 102, 0) ;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 100px;
+}
+.aboutimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: 70px;
+    filter: drop-shadow(20px 20px 10px #5555);
+}
+.compone{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.contextone{
+    text-align: left;
+    background-color:rgb(206, 191, 174);
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2%;
+    box-shadow: #5555 10px 10px 10px;
+}
+.comptwo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.contextwo{
+    text-align: right;
+    background-color:rgb(206, 191, 174);
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2%;
+    box-shadow: #5555 10px 10px 10px;
+}
+.comptree{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.contextree{
+    text-align: left;
+    background-color:rgb(206, 191, 174);
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2%;
+    box-shadow: #5555 10px 10px 10px;
+}
+.compfour{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.contexfour{
+    text-align: right;
+    background-color:rgb(206, 191, 174);
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2%;
+    box-shadow: #5555 10px 10px 10px;
+}
+.compfive{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.contexfive{
+    text-align: left;
+    background-color:rgb(206, 191, 174);
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2%;
+    box-shadow: #5555 10px 10px 10px;
+}
+.bottom{
+    color:rgb(255, 102, 0) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: -200px;
+}
