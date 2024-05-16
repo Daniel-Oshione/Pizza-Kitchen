@@ -50,13 +50,14 @@
                     <p>
                         Your order has been successfully placed.
                     </p>
-                    <a href="home.html"  onclick="closepopup()">Ok</a>
+                    <a href="index.html"  onclick="closepopup()">Ok</a>
                 </div>
             </div>
             <script>
                 let popup = document.getElementById("popup");
                 function openpopup(){
                     popup.classList.add("open-popup");
+                    window.alert("You have successfully placed an order!")
                 }
                 function closepopup(){
                     popup.classList.remove("open-popup");
