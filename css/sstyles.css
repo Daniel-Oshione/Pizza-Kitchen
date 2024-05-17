@@ -20,6 +20,8 @@ body{
 
 a {
     text-decoration:none;
+    color: white;
+    margin-right: 30px;
 }
 
 .container .hero-section {
@@ -56,13 +58,22 @@ a {
     top:0;
     left:0;
 }
-
-main nav {
+nav a{
+    text-transform: uppercase;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10%;
+    font-size: 20px;
+}
+ nav {
     width:100%;
     display:flex;
     align-items:center;
-    justify-content:center;
-    position: relative;
+    justify-content:space-between;
+}
+nav a.live,a:hover{
+    background-color: rgb(255, 102, 0);
+    transition: .5s;
+    border:5px 5px 5px 5px ;
 }
 
 main nav img {
@@ -80,7 +91,7 @@ nav i {
     cursor: pointer;
 }
 
-.fullpage {
+/* .fullpage {
     width: 100%;
     height:100%;
     display:none;
@@ -89,9 +100,10 @@ nav i {
     top:0;
     left:0;
     z-index:100;
-}
+} */
 
 section {
+    margin-top: 200px;
     width:100%;
     display:flex;
     align-items: center;

@@ -191,7 +191,7 @@ footer h5{
     position: relative;bottom: 190px;
 }
 .aboutbody{
-    background-size: cover;
+    background-size: contain;
 }
 .aboutmid{
     text-align: center;

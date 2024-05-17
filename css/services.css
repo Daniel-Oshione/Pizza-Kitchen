@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: o;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-image:url(../img/pizzzza.jpg);
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    width: 180px;
+    height: 180px;
+    border-radius: 400%;
+    line-height: 80px;
+    margin:30px 50px;
+    position: relative;left: px;
+    position: relative;bottom: 20px;
+}
+nav{
+    height: 200px;
+    width: 100%; 
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    position: relative;top: 30px;
+    position: relative;right: 60px;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10%;
+}
+nav a.live,a:hover{
+    background-color: rgb(255, 102, 0);
+    transition: .5s;
+    border:5px 5px 5px 5px ;
+}
